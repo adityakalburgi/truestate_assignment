@@ -1,10 +1,10 @@
-# Retail Sales Management System - TruEstate SDE Intern Assignment by Aditya kalburgi
+# 🌟 Retail Sales Management System - TruEstate SDE Intern Assignment by Aditya kalburgi
 
 ## 1. Overview
 
-This project is a high-performance **Retail Sales Dashboard** engineered using the **MERN Stack** (MongoDB, Express, React, Node.js). It simulates a production-grade environment capable of handling large-scale transaction datasets with sub-second latency. The system features a pixel-perfect UI based on Figma specifications and a robust backend optimized for Time and Space complexity through advanced database indexing and parallel execution strategies.
+This project is a high-performance **Retail Sales Dashboard** engineered using the **MERN Stack** (MongoDB, Express, React, Node.js). this project shows you a retail sales management system as a part of assignment
 
-**Live Demo:** [Insert Vercel Link Here]
+**Live Demo:** [[view here](https://truestateassignment.netlify.app/)]
 
 ---
 
@@ -17,7 +17,7 @@ This project is a high-performance **Retail Sales Dashboard** engineered using t
 
 ---
 
-## 3. Engineering & Performance Optimizations (Complexity Analysis)
+## 3. ⚡Engineering 
 
 To ensure the system scales efficiently, I implemented several low-level optimizations to reduce Time and Space complexity without relying on heavy external caching services like Redis.
 
@@ -79,8 +79,8 @@ Sorting is persistent across pagination and handled via database cursors.
 ### Step 1: Clone the Repository
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/TruEstate-Assignment.git](https://github.com/YOUR_USERNAME/TruEstate-Assignment.git)
-cd TruEstate-Assignment
+git clone [https://github.com/YOUR_USERNAME/TruEstate-Assignment.git](https://github.com/adityakalburgi/Truestate_assignment.git)
+cd truestate-assignment
 ```
 
 ### Step 2: Backend Setup
