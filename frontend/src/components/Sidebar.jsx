@@ -87,7 +87,7 @@ const Sidebar = () => {
         <div className="flex items-center gap-3 bg-gray-50 p-2 rounded-lg border border-gray-100">
           <div className="w-8 h-8 rounded-full bg-gray-300 border border-white shadow-sm" />
           <div className="text-xs">
-            <div className="font-medium text-gray-900">Anurag Yadav</div>
+            <div className="font-medium text-gray-900">Aditya Kalburgi</div>
             <div className="text-gray-500">Admin</div>
           </div>
         </div>
