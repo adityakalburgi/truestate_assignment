@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-    origin: "*", 
+    origin: "*",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"]
 }));
@@ -18,19 +18,16 @@ app.use(cors({
 app.use(express.json());
 
 app.use('/api/transactions', transactionRoutes);
+
 app.get('/', (req, res) => {
-  res.send('TruEstate API is running...');
+    res.send('TruEstate API is running...');
 });
 
-if (process.env.NODE_ENV !== 'production') {
-    const PORT = process.env.PORT || 5000;
-    connectDB().then(() => {
-        app.listen(PORT, () => {
-            console.log(`Server running on port ${PORT}`);
-        });
+// FIXED: Always connect + listen (production + development)
+connectDB().then(() => {
+    app.listen(PORT, () => {
+        console.log(`Server running on port ${PORT}`);
     });
-} else {
-    connectDB();
-}
+});
 
 export default app;
