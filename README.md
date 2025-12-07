@@ -79,7 +79,7 @@ Sorting is persistent across pagination and handled via database cursors.
 ### Step 1: Clone the Repository
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/TruEstate-Assignment.git](https://github.com/adityakalburgi/Truestate_assignment.git)
+git clone [[https://github.com/adityakalburgi/truestate_assignment.git](https://github.com/adityakalburgi/truestate_assignment.git)]
 cd truestate-assignment
 ```
 
